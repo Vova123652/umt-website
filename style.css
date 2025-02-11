@@ -1,0 +1,72 @@
+body {
+    background-color: #21242b;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+.dlv {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.dlv:hover {
+    background-color: cadetblue;
+}
+
+.support-button {
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+}
+.support-button:hover {
+    background-color: forestgreen;
+}
+
+/* Стили для модального окна */
+.modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); /* Чёрный фон с прозрачностью */
+}
+
+/* Контент внутри окна */
+.modal-content {
+    background-color: rgb(31, 28, 28);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Кнопка закрытия */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+}
