@@ -70,3 +70,8 @@ body {
     font-size: 28px;
     cursor: pointer;
 }
+
+ul {
+    list-style-type: none; /* Убирает маркеры списка */
+    padding: 0; /* Убирает внутренние отступы */
+}
