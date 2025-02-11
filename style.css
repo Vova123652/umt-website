@@ -75,3 +75,27 @@ ul {
     list-style-type: none; /* Убирает маркеры списка */
     padding: 0; /* Убирает внутренние отступы */
 }
+
+.linkru {
+    color: darkslateblue;
+    cursor: pointer;
+}
+.linkru:hover {
+    color: blue;
+}
+
+.linkru:active {
+    color: red;
+}
+
+.linken {
+    color: darkslateblue;
+    cursor: pointer;
+}
+.linken:hover {
+    color: blue;
+}
+
+.linken:active {
+    color: red;
+}

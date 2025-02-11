@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +10,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <a href="index-ru.html" class="linken" >Переключиться на русский</a>
-    <p>Here you can download UMT!</p>
+    <h1>Здраствуй мир!</h1>
+    <a href="index.html" class="linkru" >Switch to English</a>
+    <p>Здесь вы можете установить UMT!</p>
 
     <!-- Кнопка для скачивания последней версии -->
     <a href="https://www.dropbox.com/s/6eb7188g1svx4b9/umt-v1.0.exe?dl=1" download>
-        <button class="dlv" onclick="alert('Downloading...')">Download latest version</button>
+        <button class="dlv" onclick="alert('Загрузка...')">установить последнюю версию</button>
     </a>
 
-    <h2>And other versions:</h2>
+    <h2>И другие версии:</h2>
     <ul id="file-list"></ul>
 
 
 
     <!-- Кнопка для открытия окна -->
-    <button class="support-button" onclick="openSupport()">support</button>
+    <button class="support-button" onclick="openSupport()">поддержка</button>
 
     <!-- Само окно -->
     <div id="support-modal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeSupport()">&times;</span>
-            <h2>Select communication method (russian and english)</h2>
+            <h2>Выберите способ связи (русский и английский)</h2>
             <a href="https://t.me/vova50020" target="_blank">
                 <button class="support-tg">Telegram</button>
             </a>
